@@ -54,14 +54,38 @@
 		E26FF07F221498480090CC23 /* RedOrBlack */ = {
 			isa = PBXGroup;
 			children = (
-				E26FF080221498480090CC23 /* AppDelegate.swift */,
-				E26FF082221498480090CC23 /* ViewController.swift */,
-				E26FF087221498480090CC23 /* Main.storyboard */,
-				E26FF08A2214984A0090CC23 /* Assets.xcassets */,
+				E26FF09422149A210090CC23 /* Controller */,
+				E26FF09322149A1A0090CC23 /* View */,
+				E26FF09222149A0F0090CC23 /* Model */,
 				E26FF08C2214984A0090CC23 /* Info.plist */,
 				E26FF084221498480090CC23 /* RedOrBlack.xcdatamodeld */,
 			);
 			path = RedOrBlack;
+			sourceTree = "<group>";
+		};
+		E26FF09222149A0F0090CC23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E26FF09322149A1A0090CC23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E26FF087221498480090CC23 /* Main.storyboard */,
+				E26FF08A2214984A0090CC23 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E26FF09422149A210090CC23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E26FF080221498480090CC23 /* AppDelegate.swift */,
+				E26FF082221498480090CC23 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
