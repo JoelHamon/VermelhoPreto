@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E562ECE22173C8A00FF26FB /* CartaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E562ECD22173C8A00FF26FB /* CartaModel.swift */; };
 		E26FF081221498480090CC23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26FF080221498480090CC23 /* AppDelegate.swift */; };
 		E26FF083221498480090CC23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26FF082221498480090CC23 /* ViewController.swift */; };
 		E26FF086221498480090CC23 /* RedOrBlack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E26FF084221498480090CC23 /* RedOrBlack.xcdatamodeld */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E562ECD22173C8A00FF26FB /* CartaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CartaModel.swift; path = RedOrBlack/CartaModel.swift; sourceTree = SOURCE_ROOT; };
 		E26FF07D221498480090CC23 /* RedOrBlack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedOrBlack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26FF080221498480090CC23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E26FF082221498480090CC23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		E26FF09222149A0F0090CC23 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5E562ECD22173C8A00FF26FB /* CartaModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				E26FF083221498480090CC23 /* ViewController.swift in Sources */,
 				E26FF081221498480090CC23 /* AppDelegate.swift in Sources */,
 				E26FF086221498480090CC23 /* RedOrBlack.xcdatamodeld in Sources */,
+				5E562ECE22173C8A00FF26FB /* CartaModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
